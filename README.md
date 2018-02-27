@@ -7,6 +7,6 @@
 这个文件理论上是不会分页的，想写什么写什么
 偶尔中英文混杂，随意吧
 
-### 1.What's JIT
+### 1.What's JIT [ref](http://blog.reverberate.org/2012/12/hello-jit-world-joy-of-simple-jits.html)
 ### 2.Why JIT does't work on iOS
 ### 3.在Cocos-lua中的class是怎么实现通过.new方法可以创建多个实例的? [answer](https://github.com/vanex7/unnamed/blob/master/answer/%233.md)
