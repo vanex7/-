@@ -7,5 +7,5 @@
 这个文件理论上是不会分页的，想写什么写什么
 偶尔中英文混杂，随意吧
 
-1.What's JIT
-2.Why JIT does't work in iOS
+### 1.What's JIT
+### 2.Why JIT does't work on iOS
