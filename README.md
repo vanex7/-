@@ -11,4 +11,4 @@
 ### 2.Why JIT does't work on iOS
 ### 3.在Cocos-lua中的class是怎么实现通过.new方法可以创建多个实例的? [answer](/answer/%233.md)
 ### 4.What's means 'Context' in program? [answer](/answer/%234.md)
-### 5.In url %23 == #
+### 5.In url %23 == \#
