@@ -12,3 +12,19 @@
 ### 3.在Cocos-lua中的class是怎么实现通过.new方法可以创建多个实例的? [answer](/answer/%233.md)
 ### 4.What's means 'Context' in program? [answer](/answer/%234.md)
 ### 5.In url %23 == \#
+### 6.是否可以有这样一个表示方式： 2^0 2^1 2^2 2^3 分别表示4中通道， 给定一个方法， 这个方法接受所有可通过通道的可能性的综合，并且通过输入的值分析并且打印出。
+```lua
+local m = {}
+m.enum = {one = 2^0, two = 2^1, three = 2^3}
+
+function m:test(value)
+  --[[
+    期望这里输出value 所对应的若干个enum值
+  ]]
+end
+
+-- test
+m:test(m.enum.one)
+m:test(m.enum.one + m.enum.two)
+m:test(m.enum.one + m.enum.three)
+```
