@@ -20,6 +20,7 @@ m.enum = {one = 2^0, two = 2^1, three = 2^3}
 function m:test(value)
   --[[
     期望这里输出value 所对应的若干个enum值
+    比如这个value是由几个 n个one + n个two + n个three 组成的 （n==0 or n==1）
   ]]
 end
 
@@ -27,4 +28,5 @@ end
 m:test(m.enum.one)
 m:test(m.enum.one + m.enum.two)
 m:test(m.enum.one + m.enum.three)
+m:test(m.enum.one + m.enum.one) -- 可以暂不支持这样的
 ```
