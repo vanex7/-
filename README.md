@@ -30,3 +30,8 @@ m:test(m.enum.one + m.enum.two)
 m:test(m.enum.one + m.enum.three)
 m:test(m.enum.one + m.enum.one) -- 可以暂不支持这样的
 ```
+
+
+### 7.UDID Unique Device Identifier
+
+### 8. MAC Media Access Control
