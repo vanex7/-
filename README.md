@@ -39,3 +39,8 @@ m:test(m.enum.one + m.enum.one) -- 可以暂不支持这样的
 ### 9. Lua 中10进制，16进制互相转换（不考虑效率）
 16 -> 10 print(string.format("%d", '0xf'));
 10 -> 16 print(string.foramt("%x", '16'));
+
+### 10.project mahjong network module
+![img](./mahjong_network_module.jpg)
+### 11.project mahjong network flowchat
+![img](./mahjong_network_flowchart.jpg)
