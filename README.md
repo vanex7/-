@@ -44,3 +44,23 @@ m:test(m.enum.one + m.enum.one) -- 可以暂不支持这样的
 ![img](./mahjong_network_module.jpg)
 ### 11.project mahjong network flowchat
 ![img](./mahjong_network_flowchart.jpg)
+
+### 12.priority
+```js
+var cash = true
+var paypal = false
+var applepay = true
+var tt = false;
+
+var PRI = [
+  cash,
+  tt,
+  applepay,
+  paypal,
+]
+var use_cash = PRI.indexOf(true) == 0;
+var use_tt = PRI.indexOf(true) == 1;
+var use_applepay = PRI.indexOf(true) == 2;
+var use_paypal = PRI.indexOf(true) == 3;
+```
+
