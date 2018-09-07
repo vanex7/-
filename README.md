@@ -65,9 +65,9 @@ var use_paypal = PRI.indexOf(true) == 3;
 ```
 
 ### 13.AABB OBB
-  -- REF1: https://www.cnblogs.com/lyggqm/p/5386174.html
-  -- REF2: https://blog.csdn.net/tangxiaoli711/article/details/51554053
-  -- AABB（Axis-Aligned Bounding Boxes）
-  -- OBB（Oriented Bounding Boxes）
+  - REF1: https://www.cnblogs.com/lyggqm/p/5386174.html
+  - REF2: https://blog.csdn.net/tangxiaoli711/article/details/51554053
+  - AABB（Axis-Aligned Bounding Boxes）
+  - OBB（Oriented Bounding Boxes）
   
 
